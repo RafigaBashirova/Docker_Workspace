@@ -1,0 +1,1 @@
+sshpass -p root ssh-copy-id root@ansible-h

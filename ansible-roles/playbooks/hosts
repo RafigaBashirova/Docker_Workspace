@@ -1,0 +1,16 @@
+[allTargets:children]
+GitLab_server
+issServers
+
+[GitLab_server]
+ansible-h
+
+[GitLab_server:vars]
+ansible_connection=ssh
+
+[issServers]
+ansible-h2
+
+[issServers:vars]
+ansible_connection=ssh
+
